@@ -49,7 +49,7 @@ El objetivo es preparar el entorno para trabajar con AWS CDK con Python.
    cdk bootstrap
    ```
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/bootstrap.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/bootstrap.png" />
 </p>
 
 
@@ -116,11 +116,11 @@ TRas borrar el user groups de AWS a mano:
 5. Capturar los outputs del despliegue con los detalles del usuario
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/ouput1.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/output1.png" />
 </p>
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/ouput2.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/output2.png" />
 </p>
 
 6. Enviar un email al profesor con:
