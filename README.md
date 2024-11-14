@@ -19,7 +19,7 @@ El objetivo es preparar el entorno para trabajar con AWS CDK con Python.
    cdk --version
    ```
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/cdk.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/cdk.png" />
 </p>
 
 
@@ -31,7 +31,7 @@ El objetivo es preparar el entorno para trabajar con AWS CDK con Python.
    ```
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/mkdir.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/mkdir.png" />
 </p>
 
 
@@ -40,7 +40,7 @@ El objetivo es preparar el entorno para trabajar con AWS CDK con Python.
    cdk init app --language python
    ```
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/cdk-init.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/cdk-init.png" />
 </p>
 
 
@@ -58,7 +58,7 @@ El objetivo es preparar el entorno para trabajar con AWS CDK con Python.
    pip install -r requirements.txt
    ```
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/paso7.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/paso7.png" />
 </p>
 
 
@@ -89,7 +89,7 @@ El objetivo es crear un usuario IAM con permisos de PowerUserAccess usando CDK c
    cdk synth > cf.yaml
    ```
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/sintetizar.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/sintetizar.png" />
 </p>
 
 
@@ -98,29 +98,29 @@ El objetivo es crear un usuario IAM con permisos de PowerUserAccess usando CDK c
    cdk deploy
    ```
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/deploy.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/deploy.png" />
 </p>
 
 4. Descomentad el output y volved a desplegar para ver un update.
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/paso4.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/paso4.png" />
 </p>
 
 TRas borrar el user groups de AWS a mano:
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/deploy2.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/deploy2.png" />
 </p>
 
 5. Capturar los outputs del despliegue con los detalles del usuario
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/ouput1.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/ouput1.png" />
 </p>
 
 <p align="center">
-  <img width='60%' src="https://github.com/alvarodelburgoperez/TERRAFORM/blob/main/assets/ouput2.png" />
+  <img width='60%' src="https://github.com/alvarodelburgoperez/AWS-CDK/blob/main/assets/ouput2.png" />
 </p>
 
 6. Enviar un email al profesor con:
